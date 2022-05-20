@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "name": "English Language",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nesciunt, sunt ipsa quaerat tempora quo.",
+      "img": "https://i.ibb.co/Qnm7wnh/Depositphotos-63889211-original-300x300.jpg",
+      "price": "590"
+    },
+    {
+      "id": 2,
+      "name": "French Language ",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nesciunt, sunt ipsa quaerat tempora quo.",
+      "img": "https://i.ibb.co/Ybj2nzF/Depositphotos-58582087-original-300x300.jpg",
+      "price": "990"
+    },
+    {
+      "id": 3,
+      "name": "German Language",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nesciunt, sunt ipsa quaerat tempora quo.",
+      "img": "https://i.ibb.co/YdyDR52/Depositphotos-73936385-original1-300x300.jpg",
+      "price": "850"
+    },
+    {
+      "id": 4,
+      "name": "Spanish Language ",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nesciunt, sunt ipsa quaerat tempora quo.",
+      "img": "https://i.ibb.co/23Z4vqB/Depositphotos-85241664-original1-300x300.jpg",
+      "price": "859"
+    }
+  ]

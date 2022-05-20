@@ -1,0 +1,17 @@
+.enroll-container{
+    width: 400px;
+    background-color: white;
+    padding: 10px;
+}
+
+.enroll-from{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.input-btn{
+    width: 340px;
+    
+}

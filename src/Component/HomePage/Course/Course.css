@@ -1,0 +1,13 @@
+.enroll-btn{
+    width: 200px;
+    height: 40px;
+    font-size: large;
+}
+.enroll-link{
+    text-decoration: none;
+    color: white;
+}
+.enroll-link:hover{
+    
+    color: white;
+}
