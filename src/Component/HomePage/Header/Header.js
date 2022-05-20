@@ -26,15 +26,6 @@ const Header = () => {
             Log-In
           </Link>
         )}
-
-        
-          {/* <button className="header-link border-0  bg-white" >
-            Log-Out
-          </button> */}
-        
-          {/* <Link className="header-link  px-2" to="/login">
-            Log-In
-          </Link> */}
         
   
           <Navbar.Toggle aria-controls="offcanvasNavbar" />
