@@ -5,7 +5,7 @@ const EnrollStudent = () => {
     const [enrolls, setEnrolls] = useState([])
 
     useEffect(()=>{
-        fetch("http://localhost:5000/enrolled")
+        fetch("https://damp-temple-98992.herokuapp.com/enrolled")
         .then(res => res.json())
         .then(data => setEnrolls(data))
 

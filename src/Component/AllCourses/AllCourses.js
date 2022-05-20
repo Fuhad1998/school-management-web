@@ -5,7 +5,7 @@ const AllCourses = () => {
     const [allCourses, setAllCourses] = useState([])
 
     useEffect(() => {
-        fetch("http://localhost:5000/services")
+        fetch("https://damp-temple-98992.herokuapp.com/services")
           .then((res) => res.json())
           .then((data) => setAllCourses(data));
       }, []);

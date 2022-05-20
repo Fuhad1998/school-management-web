@@ -5,7 +5,7 @@ import "./AddServices.css"
 const AddServices = () => {
     const { register, handleSubmit } = useForm();
     const onSubmit = (data) => {
-      fetch("http://localhost:5000/services", {
+      fetch("https://damp-temple-98992.herokuapp.com/services", {
           method: "POST",
           headers: {
             "content-type": "application/json",

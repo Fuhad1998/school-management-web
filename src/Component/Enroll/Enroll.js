@@ -14,7 +14,7 @@ const Enroll = () => {
   const onSubmit = (data) => {
     data.orderName = item.name;
     data.orderPrice = item.price;
-    fetch("http://localhost:5000/enrolled", {
+    fetch("https://damp-temple-98992.herokuapp.com/enrolled", {
         method: "POST",
         headers: {
           "content-type": "application/json",
@@ -30,7 +30,7 @@ const Enroll = () => {
   };
 
   useEffect(() => {
-    fetch(`http://localhost:5000/services`)
+    fetch(`https://damp-temple-98992.herokuapp.com/services`)
       .then((res) => res.json())
       .then((data) => setServices(data));
     // console.log(service)
