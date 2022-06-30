@@ -1,4 +1,5 @@
 import React from "react";
+import AOS from "aos";
 import { Card } from "react-bootstrap";
 import img1 from "../../../img/Instructors-img/Depositphotos_82577506_original-580x580.jpg";
 import img2 from "../../../img/Instructors-img/photodune-10624211-businesswoman-networking-s1-580x580.jpg";
@@ -7,11 +8,12 @@ import img4 from "../../../img/Instructors-img/photodune-8386876-employee-at-wor
 import "./Instructors.css"
 
 const Instructors = () => {
+  AOS.init();
   return (
     <div className=" p-5 instructors-con">
       <h1 className="text-center">Featured Instructors</h1>
       <div className="row pt-5">
-        <Card style={{ width: "18rem" }} className="col-md-3 col-xs-12 col-sm-12 m-3 ">
+        <Card data-aos="fade-right" style={{ width: "18rem" }} className="col-md-3 col-xs-12 col-sm-12 m-3 ">
           <Card.Img
             className="rounded-circle cart-img p-5"
             variant="top"
@@ -25,7 +27,7 @@ const Instructors = () => {
           </Card.Body>
          
         </Card>
-        <Card style={{ width: "18rem" }} className="col-md-3 col-xs-12 col-sm-12 m-3">
+        <Card data-aos="flip-up" style={{ width: "18rem" }} className="col-md-3 col-xs-12 col-sm-12 m-3">
           <Card.Img className="rounded-circle p-5" variant="top" src={img2} />
           <Card.Body>
             <Card.Title>Kimberly Richiez</Card.Title>
@@ -35,7 +37,7 @@ const Instructors = () => {
           </Card.Body>
          
         </Card>
-        <Card style={{ width: "18rem" }} className="col-md-3 col-xs-12 col-sm-12 m-3">
+        <Card data-aos="flip-up" style={{ width: "18rem" }} className="col-md-3 col-xs-12 col-sm-12 m-3">
           <Card.Img className="rounded-circle p-5" variant="top" src={img3} />
           <Card.Body>
             <Card.Title>Dylan Taylor</Card.Title>
@@ -46,7 +48,7 @@ const Instructors = () => {
           </Card.Body>
         
         </Card>
-        <Card style={{ width: "18rem" }} className="col-md-3 m-3">
+        <Card data-aos="fade-left" style={{ width: "18rem" }} className="col-md-3 m-3">
           <Card.Img className="rounded-circle p-5" variant="top" src={img4} />
           <Card.Body>
             <Card.Title>Amy Clarke</Card.Title>

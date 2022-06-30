@@ -3,27 +3,36 @@
    color: black;
    text-decoration: none;
    font-weight: bold;
+   display: flex;
+   align-items: center;
 }
 .header-link:hover{
    
-   color: black;
+  color: black;
  
 }
 .web-name{
     font-size: larger;
 font-weight: 700;
-padding-left: 20px;
+/* padding-left: 20px; */
 }
 
 .dashbord-link{
     text-decoration: none;
     font-size: large;
     color: black;
+    
 }
 .dashbord-link:hover{
    
     color: black;
 }
-.home-link{
-    padding-left: 800px;
+.dashboard-btn{
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
+.dashboard-btn:hover{
+    color: black;
+  
 }

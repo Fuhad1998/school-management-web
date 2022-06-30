@@ -1,4 +1,5 @@
 import React from "react";
+import AOS from "aos";
 import { Card } from "react-bootstrap";
 import "./OurServices.css";
 import img1 from "../../img/services/h1-custom-icon-7.png";
@@ -6,8 +7,9 @@ import img2 from "../../img/services/h1-custom-icon-8.png";
 import img3 from "../../img/services/h1-custom-icon-9.png";
 
 const OurServices = () => {
+  AOS.init();
   return (
-    <div className="container p-5 bg-white">
+    <div  className="container p-5 bg-white">
       <div className="row">
         <h6 className="text-primary pt-5">Guaranteed Success</h6>
         <h1>Our Services</h1>
@@ -19,7 +21,7 @@ const OurServices = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
           delectus.
         </h5>
-        <div className="col-md-4 col-xs-12 col-sm-12">
+        <div data-aos="fade-right" className="col-md-4 col-xs-12 col-sm-12">
           <Card className="mx-5 border-0" style={{ width: "18rem" }}>
             <Card.Img className="p-3" variant="top" src={img1} />
             <Card.Body>
@@ -31,7 +33,7 @@ const OurServices = () => {
             </Card.Body>
           </Card>
         </div>
-        <div className="col-md-4 col-xs-12 col-sm-12">
+        <div data-aos="flip-up" className="col-md-4 col-xs-12 col-sm-12">
           <Card className=" mx-5 border-0" style={{ width: "18rem" }}>
             <Card.Img className="p-3" variant="top" src={img2} />
             <Card.Body>
@@ -43,7 +45,7 @@ const OurServices = () => {
             </Card.Body>
           </Card>
         </div>
-        <div className="col-md-4 col-xs-12 col-sm-12 mb-4">
+        <div data-aos="fade-left" className="col-md-4 col-xs-12 col-sm-12 mb-4">
           <Card className=" mx-5 border-0" style={{ width: "18rem" }}>
             <Card.Img className="p-3" variant="top" src={img3} />
             <Card.Body>

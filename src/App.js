@@ -25,6 +25,7 @@ function App() {
     <BrowserRouter>
         <Header></Header>
         <Routes>
+          
           <Route path="/ourServices" element={<OurServices />}></Route>
           <Route path="/AllCourses" element={<AllCourses />}></Route>
           <Route path="/enrollStudent" element={<EnrollStudent />}></Route>
